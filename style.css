@@ -1,0 +1,52 @@
+
+:root {
+  --inland-pine: #2A4C47;
+  --bay-blue: #3D5E6F;
+  --dune-grass: #A8AE94;
+  --estuary-mist: #D9E1E7;
+  --white-sandstone: #F0EDE5;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: var(--white-sandstone);
+  color: var(--inland-pine);
+}
+
+header, footer {
+  background-color: var(--inland-pine);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--bay-blue);
+  padding: 0.5rem;
+}
+
+nav a {
+  color: var(--white-sandstone);
+  text-decoration: none;
+  margin: 0.5rem 1rem;
+}
+
+nav a:hover {
+  color: var(--dune-grass);
+}
+
+main {
+  padding: 2rem;
+}
+
+.card {
+  background-color: var(--estuary-mist);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
